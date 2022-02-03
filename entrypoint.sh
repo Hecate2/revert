@@ -7,7 +7,7 @@ echo "Checking if contains '/revert' command..."
 (jq -r ".comment.body" "$GITHUB_EVENT_PATH" | grep -E "/revert") || exit 78
 
 HEAD_BRANCH="data"
-REPO_FULLNAME="burgernode"
+REPO_FULLNAME="neoburger/burgernode"
 
 git remote set-url origin https://x-access-token:$HECATE2_GITHUB_TOKEN_FOR_BURGERNODE_REVERT@github.com/$REPO_FULLNAME.git
 git config --global user.email "revert@github.com"
