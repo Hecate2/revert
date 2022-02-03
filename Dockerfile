@@ -1,7 +1,7 @@
 FROM alpine:latest
 
-LABEL repository="http://github.com/srt32/revert"
-LABEL homepage="http://github.com/srt32/revert"
+LABEL repository="http://github.com/Hecate2/revert"
+LABEL homepage="http://github.com/Hecate2/revert"
 LABEL "com.github.actions.name"="Automatic Revert"
 LABEL "com.github.actions.description"="Automatically revert a commit on '/revert' comment"
 LABEL "com.github.actions.icon"="git-pull-request"
